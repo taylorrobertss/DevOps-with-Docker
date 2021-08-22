@@ -1,0 +1,6 @@
+
+C:\Users\Taylo>docker ps -a
+CONTAINER ID   IMAGE     COMMAND                  CREATED              STATUS                      PORTS     NAMES
+1c6e72f1d70b   nginx     "/docker-entrypoint.…"   56 seconds ago       Exited (0) 29 seconds ago             happy_khorana
+6f2460e50071   nginx     "/docker-entrypoint.…"   58 seconds ago       Exited (0) 14 seconds ago             flamboyant_panini
+e6c0043d4da5   nginx     "/docker-entrypoint.…"   About a minute ago   Up About a minute           80/tcp    condescending_sammet

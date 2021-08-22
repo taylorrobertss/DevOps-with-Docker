@@ -1,0 +1,6 @@
+C:\Users\Taylo>docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+
+C:\Users\Taylo>docker images
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
