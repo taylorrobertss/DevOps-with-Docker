@@ -1,0 +1,11 @@
+
+C:\Users\Taylo>docker run -d --rm  -it --name ex3 devopsdockeruh/simple-web-service:ubuntu
+38db61bb97e776fea8087b64f7f08e779fd8fa8a830fddabc39aec009a2bc441
+
+C:\Users\Taylo>docker attach --no-stdin ex3
+Wrote text to /usr/src/app/text.log
+
+C:\Users\Taylo>docker exec -it ex3 bash
+root@38db61bb97e7:/usr/src/app# tail -f ./text.log
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2021-08-22 19:24:33 +0000 UTC

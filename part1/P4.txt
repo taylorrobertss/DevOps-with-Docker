@@ -1,0 +1,18 @@
+
+C:\Users\Taylo>docker run -it -d --name Pt4 ubuntu
+d4034132ae59e7c2694a4e9accd7f0a9f88075ff5db5976fc144d1349f60ca74
+
+C:\Users\Taylo>docker exec -it Pt4 bash
+
+root@d4034132ae59:/# sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+Input website:
+helsinki.fi
+Searching..
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://www.helsinki.fi/">here</a>.</p>
+</body></html>
+root@d4034132ae59:/#

@@ -1,0 +1,16 @@
+
+C:\Users\Taylo>docker pull devopsdockeruh/simple-web-service:ubuntu
+
+C:\Users\Taylo>docker pull devopsdockeruh/simple-web-service:alpine
+
+C:\Users\Taylo>docker images
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   5 months ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   5 months ago   15.7MB
+
+C:\Users\Taylo>docker exec -it flamboyant_agnesi sh
+/usr/src/app # tail -f ./text.log
+2021-08-23 14:12:31 +0000 UTC
+2021-08-23 14:12:33 +0000 UTC
+2021-08-23 14:12:35 +0000 UTC
+2021-08-23 14:12:37 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
